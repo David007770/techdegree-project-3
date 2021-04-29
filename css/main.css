@@ -21,7 +21,7 @@ body {
 }
 
 form {
-  max-width: 300px;
+  max-width: 80%;
   margin: 10px auto;
   padding: 10px 20px;
   background: #f4f7f8;
@@ -166,12 +166,6 @@ textarea:focus{
   align-items: center;
 }
 
-select {
-  padding: 6px;
-  height: 32px;
-  border-radius: 2px;
-}
-
 button {
   padding: 19px 39px 18px 39px;
   color: #FFF;
@@ -210,7 +204,7 @@ label.light {
 @media screen and (min-width: 768px) {
 
   .container{
-    margin: auto 20vw;
+    margin: auto 10vw;
 }
   .flex-row {
     flex-direction: row;
